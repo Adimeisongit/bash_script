@@ -1,0 +1,5 @@
+print("Welcome to the Self examination tool")
+name = input("What is your name?: ")
+age = input("How old are you?: ")
+country = input("Which country do you live in?: ")
+print("My name is " + name + "," " I am " + str(age) + " years old." + " I live in " + country + ".")
