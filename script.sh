@@ -1,77 +1,10 @@
 #!/bin/bash
-echo "Welcome to the Self examination tool"
 
-sleep 2
+read -p "What is your name? " name
+read -p "How old are you? " age
+read -p "Where do you live? " residence
+read -p "What are your hobbies? " hobbies
+read -p "What is your dream job? " dream_job
+read -p "What is your personal or professional goal? " goal
 
-echo "What is your name ?"
-
-read name
-
-sleep 1
-
-echo "what is your age ?"
-
-read age
-
-sleep 1
-
-echo "Where do you come from?"
-
-read origin
-
-echo  "How tall are you?"
-
-read height
-
-sleep 1
-
-echo ""
-
-read
-
-sleep 1
-
-echo ""
-
-read
- 
-sleep 1
-
-echo ""
-                                                    
-read
-
-sleep 1
-
-echo ""
-
-read
-
-sleep 1
-
-echo ""
-
-read 
-
-sleep 1
-
-echo ""
-
-read
-
-sleep 1
-
-echo ""
-
-read
-
-sleep 1
-
-echo ''
-
-read
-
-sleep 4
-
-
-echo "My name is $name, I am $age years old. " 
+echo "My name is $name. I am $age years old and I live in $residence. My hobbies are $hobbies. My dream job is to be a $dream_job and my personal/professional goal is to $goal."
